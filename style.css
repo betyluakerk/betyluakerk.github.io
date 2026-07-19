@@ -107,7 +107,7 @@ a{ color: var(--accent-deep); }
 }
 
 /* ---------- Hero ---------- */
-.hero{ background: var(--bg-deep); padding: 2.4rem 1.5rem 0; }
+.hero{ background: var(--bg); padding: 2.4rem 1.5rem 0; }
 
 .hero__frame{
   position: relative;
@@ -140,9 +140,9 @@ a{ color: var(--accent-deep); }
 }
 
 .verse-band{
-  background: var(--bg-deep);
+  background: var(--bg);
   padding: 1.4rem 1.5rem 3.2rem;
-  border-bottom: 1px solid var(--rule);
+  /* border-bottom: 1px solid var(--rule); */
 }
 
 .verse{
@@ -153,7 +153,7 @@ a{ color: var(--accent-deep); }
   font-style: italic;
   font-weight: 500;
   font-size: 1.35rem;
-  color: var(--accent-deep);
+  color: var(--ink-soft);
 }
 
 .verse p{ margin: 0 0 0.7rem; }
@@ -164,7 +164,7 @@ a{ color: var(--accent-deep); }
   font-size: 0.95rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--accent-deep);
 }
 
 /* ---------- Ornament divider ---------- */
@@ -308,7 +308,7 @@ a{ color: var(--accent-deep); }
 /* ---------- Footer ---------- */
 .site-footer{
   border-top: 1px solid var(--rule);
-  background: var(--bg-deep);
+  background: var(--bg);
   padding: 2.4rem 1.5rem;
   text-align: center;
 }
