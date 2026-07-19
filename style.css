@@ -153,7 +153,7 @@ a{ color: var(--accent-deep); }
   font-style: italic;
   font-weight: 500;
   font-size: 1.35rem;
-  color: var(--ink-soft);
+  color: var(--accent-deep);
 }
 
 .verse p{ margin: 0 0 0.7rem; }
@@ -164,7 +164,7 @@ a{ color: var(--accent-deep); }
   font-size: 0.95rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent-deep);
+  color: var(--ink-soft);
 }
 
 /* ---------- Ornament divider ---------- */
