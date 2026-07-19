@@ -152,7 +152,7 @@ a{ color: var(--accent-deep); }
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.35rem;
   color: var(--ink-soft);
 }
 
@@ -161,7 +161,7 @@ a{ color: var(--accent-deep); }
 .verse cite{
   display: block;
   font-style: normal;
-  font-size: 15px;
+  font-size: 0.95rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent-deep);
