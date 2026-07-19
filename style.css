@@ -107,20 +107,23 @@ a{ color: var(--accent-deep); }
 }
 
 /* ---------- Hero ---------- */
-.hero{ background: var(--bg-deep); }
+.hero{ background: var(--bg-deep); padding: 2.4rem 1.5rem 0; }
 
 .hero__frame{
   position: relative;
-  max-width: 1080px;
+  max-width: 460px;
   margin: 0 auto;
   overflow: hidden;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  box-shadow: 0 6px 22px rgba(60,45,20,0.14);
 }
 
 .hero__image{
   display: block;
   width: 100%;
   height: auto;
-  max-height: 62vh;
+  max-height: 300px;
   object-fit: cover;
   object-position: center 35%;
   filter: sepia(0.18) contrast(1.04) brightness(1.02);
